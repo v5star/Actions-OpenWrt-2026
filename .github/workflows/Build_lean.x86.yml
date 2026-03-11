@@ -1,9 +1,9 @@
 name: Build lean x86
 
 on: 
-  schedule:
+  #schedule:
     # 对应的是 UTC 时间，需要转换，0 代表北京时间8点
-    - cron: 20 1 22 * *
+    #- cron: 20 1 22 * *
   workflow_dispatch:
     inputs:
       ssh:
